@@ -1,3 +1,9 @@
+PATH
+  remote: ../middleman-gh-pages
+  specs:
+    middleman-gh-pages (0.0.3)
+      rake (> 0.9.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -61,8 +67,6 @@ GEM
     middleman-favicon-maker (3.5.2)
       favicon_maker (~> 1.1.1)
       middleman-core (>= 3.0.0)
-    middleman-gh-pages (0.0.3)
-      rake (> 0.9.3)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -118,7 +122,7 @@ DEPENDENCIES
   haml
   middleman (~> 3.2.2)
   middleman-favicon-maker (~> 3.5)
-  middleman-gh-pages
+  middleman-gh-pages!
   middleman-livereload (~> 3.1.0)
   oj
   sass
