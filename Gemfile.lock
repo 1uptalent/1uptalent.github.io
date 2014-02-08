@@ -1,5 +1,7 @@
-PATH
-  remote: ../middleman-gh-pages
+GIT
+  remote: git://github.com/GermanDZ/middleman-gh-pages.git
+  revision: a2e18f905d9a5aa60eabc2b699aa4cd22f3d2f22
+  branch: dont_try_to_delete_master
   specs:
     middleman-gh-pages (0.0.3)
       rake (> 0.9.3)
