@@ -69,6 +69,8 @@ GEM
     middleman-favicon-maker (3.5.2)
       favicon_maker (~> 1.1.1)
       middleman-core (>= 3.0.0)
+    middleman-google-analytics (0.0.3)
+      middleman-core (>= 3.0.6)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -125,6 +127,7 @@ DEPENDENCIES
   middleman (~> 3.2.2)
   middleman-favicon-maker (~> 3.5)
   middleman-gh-pages!
+  middleman-google-analytics
   middleman-livereload (~> 3.1.0)
   oj
   sass

@@ -79,6 +79,10 @@ compass_config do |config|
 
 end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-22657949-1'
+end
+
 # Add bower's directory to sprockets asset path
 after_configuration do
   sprockets.append_path File.join 'source', 'bower_components'
