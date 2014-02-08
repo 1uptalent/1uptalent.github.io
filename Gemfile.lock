@@ -1,5 +1,7 @@
-PATH
-  remote: ../middleman-gh-pages
+GIT
+  remote: git://github.com/tarebyte/middleman-gh-pages.git
+  revision: 4c5a578e79a1f8bf4e909169cc0948d6bb2d5304
+  branch: github_user_pages
   specs:
     middleman-gh-pages (0.0.3)
       rake (> 0.9.3)
