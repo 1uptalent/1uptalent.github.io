@@ -88,4 +88,4 @@ after_configuration do
   sprockets.append_path File.join 'source', 'bower_components'
 end
 
-page '/*.html', layout: 'home'
+page '/*.html', layout: 'default'
