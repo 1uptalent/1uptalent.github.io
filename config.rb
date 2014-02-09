@@ -116,6 +116,7 @@ activate :deploy do |deploy|
   deploy.branch   = "master"
 end
 
+activate :asset_hash
 
 page '/*.html', layout: 'default'
 page '/blog/*.html', layout: 'blog'
