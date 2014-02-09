@@ -1,10 +1,34 @@
+Time.zone = "Europe/Madrid"
+activate :blog do |blog|
+  # This will add a prefix to all links, template references and source paths
+  blog.prefix = "blog"
+
+  blog.permalink = ":year/:month/:title.html"
+  # Matcher for blog source files
+  blog.sources = ":year-:month-:day-:title"
+  blog.taglink = "tags/:tag.html"
+  blog.layout = "blog"
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 250
+  blog.year_link = ":year.html"
+  blog.month_link = ":year/:month.html"
+  blog.day_link = ":year/:month/:day.html"
+  # blog.default_extension = ".markdown"
+
+  blog.tag_template = "blog/tag.html"
+  blog.calendar_template = "blog/calendar.html"
+
+  # Enable pagination
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/:num}"
+end
+
 activate :directory_indexes
 activate :livereload
 
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'img'
 
 # Build-specific configuration
@@ -30,8 +54,6 @@ configure :build do
   # set :http_path, "/Content/images/"
 
   activate :favicon_maker do |f|
-    f.template_dir  = File.join root, 'source'
-    f.output_dir    = File.join root, 'build'
     f.icons = {
       'favicon_hires.png' => [
         { icon: "apple-touch-icon-152x152-precomposed.png" },
@@ -63,10 +85,10 @@ compass_config do |config|
   config.add_import_path "bower_components/foundation/scss"
   # Set this to the root of your project when deployed:
   config.http_path = "/"
-  config.css_dir = "stylesheets"
-  config.sass_dir = "stylesheets"
-  config.images_dir = "images"
-  config.javascripts_dir = "javascripts"
+  config.css_dir = "css"
+  config.sass_dir = "saas"
+  config.images_dir = "img"
+  config.javascripts_dir = "js"
 
   # You can select your preferred output style here (can be overridden via the command line):
   # output_style = :expanded or :nested or :compact or :compressed
@@ -89,3 +111,4 @@ after_configuration do
 end
 
 page '/*.html', layout: 'default'
+page '/blog/*.html', layout: 'blog'
