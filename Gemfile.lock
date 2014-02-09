@@ -1,11 +1,3 @@
-GIT
-  remote: git://github.com/GermanDZ/middleman-gh-pages.git
-  revision: a2e18f905d9a5aa60eabc2b699aa4cd22f3d2f22
-  branch: dont_try_to_delete_master
-  specs:
-    middleman-gh-pages (0.0.3)
-      rake (> 0.9.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,6 +64,10 @@ GEM
       rack-test (~> 0.6.1)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1)
+    middleman-deploy (0.1.4)
+      middleman-core (>= 3.0.0)
+      net-sftp
+      ptools
     middleman-favicon-maker (3.5.2)
       favicon_maker (~> 1.1.1)
       middleman-core (>= 3.0.0)
@@ -90,13 +86,16 @@ GEM
     mini_magick (3.7.0)
       subexec (~> 0.2.1)
     multi_json (1.8.4)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.8.0)
     oj (2.5.4)
+    ptools (1.2.2)
     rack (1.5.2)
     rack-livereload (0.3.15)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.1.1)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -136,8 +135,8 @@ DEPENDENCIES
   haml
   middleman (~> 3.2.2)
   middleman-blog (~> 3.5.1)
+  middleman-deploy
   middleman-favicon-maker (~> 3.5)
-  middleman-gh-pages!
   middleman-google-analytics
   middleman-livereload (~> 3.1.0)
   oj

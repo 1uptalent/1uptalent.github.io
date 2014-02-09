@@ -110,5 +110,12 @@ after_configuration do
   sprockets.append_path File.join 'source', 'bower_components'
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+  deploy.branch   = "master"
+end
+
+
 page '/*.html', layout: 'default'
 page '/blog/*.html', layout: 'blog'
