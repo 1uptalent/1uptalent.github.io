@@ -6,7 +6,7 @@ date: 2011-04-11 00:00 CEST
 
 We have been working for more than a month now without any online presence.
 
-That is a great sign, since without any advertising we have been able to land a really interesting project. One of those that can **truly** change the world. Its name is <a title="Tu opinas y el mundo mejora" href="http://valioo.com" target="_blank">Valioo</a> and it is still in private beta, but you can learn more and reserve your position in the queue.
+That is a great sign, since without any advertising we have been able to land a really interesting project. One of those that can **truly** change the world. Its name is Valioo and it is still in private beta, but you can learn more and reserve your position in the queue.
 
 Anyway, I digress.
 
@@ -16,6 +16,6 @@ The only purpose of this post is to announce (to no one, really) that we have st
 
 ![the path](blog/2011-04-11-its-a-dangerous-business/camino_entre_murallas-940x198.jpg)
 
-We have been extremely well accompanied so far with people like the <a title="Tetuan Valley Startup School" href="http://blog.tetuanvalley.com/startupschool" target="_blank">Tetuan Valley</a><a title="Okuri Ventures" href="http://www.okuriventures.com/en/team.php" target="_blank"> crew</a> (who taught us a lot about startups) or Byron Standford (of <a title="Byron's company blog" href="http://www.project-presentation.com/blog/" target="_blank">Project Presentation</a> fame). We hope to continue walking with them in the future.
+We have been extremely well accompanied so far with people like the <a title="Tetuan Valley Startup School" href="http://blog.tetuanvalley.com/startupschool" target="_blank">Tetuan Valley</a> crew (who taught us a lot about startups) or Byron Standford (of <a title="Byron's presentations" href="http://www.slideshare.net/PPresentation" target="_blank">Project Presentation</a> fame). We hope to continue walking with them in the future.
 
 See you at the next crossroad! We&#8217;d like to walk with you until your next stop…
