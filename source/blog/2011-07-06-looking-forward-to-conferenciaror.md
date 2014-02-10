@@ -13,4 +13,4 @@ The conference itself will be held in the historic Parque del Retiro, but the pa
 
 And there is also a session about <a href="http://jashkenas.github.com/coffee-script" target="coffescript">Coffeescript</a> and another titled «*Five languages in a moment*». **How cool is that?** We live in *polyglot times* and there is no reason to be stuck in a single language. Even one as nice to use as ruby.
 
-So go check the <a href="http://conferenciarails.org/schedule.html" target="conferenciarails">schedule</a>, grab <a href="https://autofiscal.com/aprodeweb/campaigns/conf2011/sales/new" target="conferenciarails">your tickets</a> if you haven&#8217;t already and lets meet there. Or better… join us in the after-event parties!
+So go check the <a href="http://conferenciarails.org/schedule.html" target="conferenciarails">schedule</a>, grab your tickets if you haven&#8217;t already and lets meet there. Or better… join us in the after-event parties!
