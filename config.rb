@@ -25,7 +25,9 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-activate :livereload
+activate :livereload do |livereload|
+  livereload.no_swf = true
+end
 
 set :css_dir, 'css'
 set :js_dir, 'js'
@@ -128,6 +130,7 @@ activate :asset_hash
 
 page '/*.html', layout: 'default'
 page '/blog/*.html', layout: 'blog'
+page '/blog/feed.xml', layout: false
 
 redirects = {
   '/blog/2011/04/its-a-dangerous-business' => [

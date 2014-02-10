@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'middleman', '~> 3.2.2'
 gem 'middleman-blog', '~> 3.5.1'
+gem 'nokogiri'
+gem 'builder', '~> 3.0'
 gem 'middleman-livereload', '~> 3.1.0'
 gem "middleman-favicon-maker", "~> 3.5"
 gem "middleman-google-analytics"
