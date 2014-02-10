@@ -22,33 +22,37 @@
     = partial 'header'
     %section.main
       .row
-        .large-9.columns
-          - if current_article
-            %h1
-              = current_article.title
-              - info = "Posted on #{current_article.date.strftime('%B %d, %Y')}"
-              - info += " by #{current_article.data[:author]}" if current_article.data[:author]
-            %h4 #{info}
-          = yield
-        %aside.large-3.columns
-          %h2 Recent Articles
-          %ol
+        .large-8.columns
+          .row.title
+            .large-12.columns
+              - if current_article
+                %h1
+                  = current_article.title
+                %h4
+                  %small Posted on #{current_article.date.strftime('%B %d, %Y')}
+          .row
+            .large-12.columns
+              = yield
+        %aside.large-4.columns
+          %h3 Recent posts
+          %ol.side-nav
             - blog.articles[0...10].each do |article|
               %li
                 = link_to article.title, article
-                %span= article.date.strftime('%b %e')
-          %h2 Tags
-          %ol
+                = article.date.strftime('%b %e')
+          %h3 Tags
+          %ol.side-nav
             - blog.tags.each do |tag, articles|
               %li
                 = link_to tag, tag_path(tag)
                 (#{articles.size})
-          %h2 By Year
-          %ol
+          %h3 By Year
+          %ol.side-nav
             - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
               %li
                 = link_to year, blog_year_path(year)
                 (#{articles.size})
+    = partial 'footer'
     %script{src: "/bower_components/jquery/jquery.js"}
     %script{src: "/bower_components/foundation/js/foundation.min.js"}
     %script{src: "/js/app.js"}
