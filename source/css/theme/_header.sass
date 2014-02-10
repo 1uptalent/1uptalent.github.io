@@ -2,9 +2,17 @@ header
   background: $black
   padding: 15px 5%
   .top-bar
-    ul li > a, h5
-      font-family: $sans
-      font-size: 1.1em
+    .top-bar-section
+      @media #{ $medium-only }
+        margin-top: 0.55em
+       
+      li:not(.has-form) a:not(.button)
+        font-family: $sans
+        @media #{ $large-up }
+          font-size: 1.1em
+        @media #{ $medium-only }
+          font-size: 0.8em
+          padding: 0 5px
     h1
       text-indent: -9999px
       background: image-url('logo.png') no-repeat
