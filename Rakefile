@@ -1,9 +1,5 @@
-require 'middleman-gh-pages'
-
-task :build => [:prepare]
-
 desc "Build and serve a local copy"
-task :serve => [:build] do |t|
+task :serve do |t|
   sh "ruby -run -e httpd build -p 9090"
 end
 
