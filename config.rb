@@ -101,8 +101,16 @@ compass_config do |config|
 
 end
 
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-22657949-1'
+configure :development do
+  activate :google_analytics do |ga|
+    ga.tracking_id = false
+  end
+end
+
+configure :build do
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-22657949-1'
+  end
 end
 
 # Add bower's directory to sprockets asset path
