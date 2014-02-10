@@ -5,4 +5,18 @@ body
     line-height: 1.8em
   section.main
     padding-top: 2em
-    
+  @media #{$small-only}
+    .avatar
+      +border-radius(5px)
+      height: 150px
+      width: 150px
+      border: 10px solid white
+      +box-shadow(2px 2px 4px rgba(0, 0, 0, 0.65))
+      margin-bottom: 2em
+  .frame
+    +border-radius(5px)
+    height: 150px
+    width: 150px
+    border: 10px solid white
+    +box-shadow(2px 2px 4px rgba(0, 0, 0, 0.65))
+    margin-bottom: 2em
