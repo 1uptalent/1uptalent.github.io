@@ -3,7 +3,7 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
 
-  blog.permalink = ":year/:month/:title.html"
+  blog.permalink = ":year/:month/:title"
   # Matcher for blog source files
   blog.sources = ":year-:month-:day-:title"
   blog.taglink = "tags/:tag.html"
@@ -120,3 +120,20 @@ activate :asset_hash
 
 page '/*.html', layout: 'default'
 page '/blog/*.html', layout: 'blog'
+
+redirects = {
+  '/blog/2011/04/its-a-dangerous-business' => [
+    '2011/04/its-a-dangerous-business…',
+    '2011/04/its-a-dangerous-business%e2%80%a6',
+    '2011/04/its-a-dangerous-business'
+  ],
+  '/blog/2011/06/retrospective-of-startup-weekend-madrid' => '2011/06/retrospective-of-startup-weekend-madrid',
+  '/blog/2011/07/looking-forward-to-conferenciaror' => '2011/07/looking-forward-to-conferenciaror'
+}
+
+redirects.each_pair do |destination, old_urls|
+  old_urls = [old_urls] unless old_urls.is_a? Array
+  old_urls.each do |old|
+    proxy "#{old}.html", "redirects.html", :locals => { redirected_url: destination }
+  end
+end
