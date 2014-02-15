@@ -131,6 +131,7 @@ activate :asset_hash
 page '/*.html', layout: 'default'
 page '/blog/*.html', layout: 'blog'
 page '/blog/feed.xml', layout: false
+page "/404.html", directory_index: false, layout: 'default'
 
 redirects = {
   '/blog/2011/04/its-a-dangerous-business' => [
