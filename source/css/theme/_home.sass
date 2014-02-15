@@ -7,24 +7,31 @@ body.index
     background: $red_bg
     color: $real_white
     font-family: $header-font-family
+    .fixed-size
+      @media #{$small-only}
+        max-width: 265px
+      @media #{$medium-only}
+        max-width: 596px
+      @media #{$large-up}
+        max-width: 805px
     .tag-line
-      line-height: 5*1.7*14pt
-      font-size: 5em
+      line-height: 6*1.7*12pt
+      font-size: 6em
       margin: 1ex 0
       strong
         font-size: 1.55em
         span  
           font-size: 1.5em
       @media #{$medium-only}
-        font-size: 3.6em
-        line-height: 3.6*1.4*14pt 
+        font-size: 4.7em
+        line-height: 4.7*1.4*12pt 
         strong
           font-size: 1.4em
           span
             font-size: 1.5em
       @media #{$small-only}
         font-size: 2em
-        line-height: 2*1.4*14pt 
+        line-height: 2*1.4*12pt 
         strong
           font-size: 1.4em
           span
@@ -35,6 +42,8 @@ body.index
       strong
         font-size: 1.2em
         line-height: 1.5em
+      @media #{$small-only}
+        font-size: 1.2em
   h1, h2, h3
     margin: 1.5em 0 0.5em 0
   h3
