@@ -1,4 +1,12 @@
 body.index
+  .narrow
+    text-align: justify
+    @media #{$small-only}
+      max-width: 265px
+    @media #{$medium-only}
+      max-width: 596px
+    @media #{$large-up}
+      max-width: 805px
   section.main
     padding-top: 0
   section.slogan
@@ -7,13 +15,6 @@ body.index
     background: $red_bg
     color: $real_white
     font-family: $header-font-family
-    .fixed-size
-      @media #{$small-only}
-        max-width: 265px
-      @media #{$medium-only}
-        max-width: 596px
-      @media #{$large-up}
-        max-width: 805px
     .tag-line
       line-height: 6*1.7*12pt
       font-size: 6em
@@ -44,6 +45,11 @@ body.index
         line-height: 1.5em
       @media #{$small-only}
         font-size: 1.2em
+  section.description
+    @media #{$large-up}
+      p, li
+        font-size: 1.35em
+
   h1, h2, h3
     margin: 1.5em 0 0.5em 0
   h3
