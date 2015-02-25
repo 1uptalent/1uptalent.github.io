@@ -6,6 +6,5 @@ end
 task :prepare => [:bower]
 
 task :bower do |t|
-  sh "cd source; bower install"
+  sh "cd source; `npm bin`/bower install"
 end
-

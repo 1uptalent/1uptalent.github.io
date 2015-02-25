@@ -3,6 +3,11 @@
 
 1uptalent.com website
 
+Setup
+=======
+Run `rake prepare`.
+
+This is also needed when changing bower dependencies (`source/bower.json`)
 
 Developing
 ==========

@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '~> 3.2.2'
-gem 'middleman-blog', '~> 3.5.1'
+gem 'middleman'
+gem 'middleman-blog'
 gem 'nokogiri'
-gem 'builder', '~> 3.0'
-gem 'middleman-livereload', '~> 3.1.0'
-gem "middleman-favicon-maker", "~> 3.5"
+gem 'builder'
+gem 'middleman-livereload'
+gem "middleman-favicon-maker"
 gem "middleman-google-analytics"
 gem "middleman-deploy"
 
@@ -15,4 +15,4 @@ gem 'sass'
 gem 'therubyracer' # faster JS compiles
 gem 'oj' # faster JS compiles
 
-gem 'foundation', group: 'develop'
+gem 'foundation'
