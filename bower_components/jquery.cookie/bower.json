@@ -1,0 +1,18 @@
+{
+  "name": "jquery.cookie",
+  "version": "1.4.1",
+  "main": [
+    "jquery.cookie-c941940a.js"
+  ],
+  "dependencies": {
+    "jquery": ">=1.2"
+  },
+  "ignore": [
+    "test",
+    ".*",
+    "*.json",
+    "*.md",
+    "*.txt",
+    "Gruntfile.js"
+  ]
+}

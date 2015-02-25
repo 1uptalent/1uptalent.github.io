@@ -1,0 +1,1 @@
+Modernizr.testStyles("#modernizr{background-size:cover}",function(t){var e=window.getComputedStyle?window.getComputedStyle(t,null):t.currentStyle;Modernizr.addTest("bgsizecover","cover"==e.backgroundSize)});

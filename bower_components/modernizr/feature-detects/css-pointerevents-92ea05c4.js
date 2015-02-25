@@ -1,0 +1,1 @@
+Modernizr.addTest("pointerevents",function(){var t,e=document.createElement("x"),n=document.documentElement,i=window.getComputedStyle;return"pointerEvents"in e.style?(e.style.pointerEvents="auto",e.style.pointerEvents="x",n.appendChild(e),t=i&&"auto"===i(e,"").pointerEvents,n.removeChild(e),!!t):!1});

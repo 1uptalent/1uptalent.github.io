@@ -1,0 +1,1 @@
+define(["../../var/pnum"],function(t){return new RegExp("^("+t+")(?!px)[a-z%]+$","i")});

@@ -1,0 +1,1 @@
+Modernizr.addTest("unicode",function(){var t,e=document.createElement("span"),n=document.createElement("span");return Modernizr.testStyles("#modernizr{font-family:Arial,sans;font-size:300em;}",function(i){e.innerHTML="&#5987",n.innerHTML="&#9734",i.appendChild(e),i.appendChild(n),t="offsetWidth"in e&&e.offsetWidth!==n.offsetWidth}),t});

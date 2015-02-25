@@ -1,0 +1,1 @@
+!function(){var t=new Image;t.onerror=function(){Modernizr.addTest("webp",!1)},t.onload=function(){Modernizr.addTest("webp",function(){return 1==t.width})},t.src="data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAUAgCdASoBAAEAL/3+/3+CAB/AAAFzrNsAAP5QAAAAAA=="}();

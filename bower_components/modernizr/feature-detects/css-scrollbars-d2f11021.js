@@ -1,0 +1,1 @@
+Modernizr.addTest("cssscrollbar",function(){var t,e="#modernizr{overflow: scroll; width: 40px }#"+Modernizr._prefixes.join("scrollbar{width:0px} #modernizr::").split("#").slice(1).join("#")+"scrollbar{width:0px}";return Modernizr.testStyles(e,function(e){t="scrollWidth"in e&&40==e.scrollWidth}),t});

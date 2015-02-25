@@ -1,0 +1,1 @@
+define(["../core","../selector"],function(t){t.expr.filters.hidden=function(t){return t.offsetWidth<=0&&t.offsetHeight<=0},t.expr.filters.visible=function(e){return!t.expr.filters.hidden(e)}});

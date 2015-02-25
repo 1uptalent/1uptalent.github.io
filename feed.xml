@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>1uptalent pulse</title>
+  <subtitle>living@1uptalent</subtitle>
+  <id>http://1uptalent.com/blog</id>
+  <link href="http://1uptalent.com/blog"/>
+  <link href="http://1uptalent.com/blog/feed.xml" rel="self"/>
+  <updated>2011-07-06T00:00:00+02:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Looking forward to @conferenciaror</title>
+    <link rel="alternate" href="http://1uptalent.com/blog/2011/07/looking-forward-to-conferenciaror/"/>
+    <id>http://1uptalent.com/blog/2011/07/looking-forward-to-conferenciaror/</id>
+    <published>2011-07-06T00:00:00+02:00</published>
+    <updated>2015-02-25T10:34:25+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Next week, the amazing &lt;a href="http://conferenciarails.org/" target="conferenciarails"&gt;Conferencia Rails&lt;/a&gt; is taking place in Madrid. And of course we will be there &lt;strong&gt;supporting&lt;/strong&gt; the event!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="I'm attending conferencia rails 2011" src="/img/blog/2011-07-06-looking-forward-to-conferenciaror/im_attending-bdf9311c.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;The conference itself will be held in the historic Parque del Retiro, but the party will start the day before with a set of...&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Retrospective of Startup Weekend Madrid</title>
+    <link rel="alternate" href="http://1uptalent.com/blog/2011/06/retrospective-of-startup-weekend-madrid/"/>
+    <id>http://1uptalent.com/blog/2011/06/retrospective-of-startup-weekend-madrid/</id>
+    <published>2011-06-13T00:00:00+02:00</published>
+    <updated>2015-02-25T10:34:25+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Anybody reading this should know that we love working with startups. We know their budget is constrained, but we are the kind of folks who prefer an engaging project rather than coding yet another boring payroll system.&lt;/p&gt;
+
+&lt;p&gt;So it should be no surprise...&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>It&amp;#8217;s a dangerous business...</title>
+    <link rel="alternate" href="http://1uptalent.com/blog/2011/04/its-a-dangerous-business/"/>
+    <id>http://1uptalent.com/blog/2011/04/its-a-dangerous-business/</id>
+    <published>2011-04-11T00:00:00+02:00</published>
+    <updated>2015-02-25T10:34:25+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;We have been working for more than a month now without any online presence.&lt;/p&gt;
+
+&lt;p&gt;That is a great sign, since without any advertising we have been able to land a really interesting project. One of those that can &lt;strong&gt;truly&lt;/strong&gt; change the world. Its name is Valioo...&lt;/p&gt;</summary>
+  </entry>
+</feed>

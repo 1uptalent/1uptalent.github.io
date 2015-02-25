@@ -1,0 +1,1 @@
+define(["../core"],function(t){return t.acceptData=function(t){return 1===t.nodeType||9===t.nodeType||!+t.nodeType},t.acceptData});

@@ -1,0 +1,1 @@
+define(["./class2type"],function(t){return t.hasOwnProperty});
