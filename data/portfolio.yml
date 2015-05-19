@@ -1,0 +1,16 @@
+projects:
+  -
+    year: 2014
+    name: 4time
+    description: Time sharing app
+    stack: Ruby on Rails, MySQL, EC2, Stripe API, Ansible
+  -
+    year: 2014
+    name: neupic.com
+    description: self publishing newspaper
+    stack: Ruby on Rails, MySQL, EC2, Stripe API, Ansible
+  -
+    year: 2015
+    name: trustable.io
+    description: blah blah
+    stack: Ruby on Rails, MySQL, Linux, Ansible
