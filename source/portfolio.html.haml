@@ -1,12 +1,3 @@
-.row
-  .large-12.columns
-    %h1 Portfolio
-    %p
-      You can contact 1uptalent directly by sending an email to
-      %a(href="mailto:amuino@1uptalent.com?subject=Some questions about 1uptalent") Abel Muiño
-      or
-      %a(href="mailto:germandz@1uptalent.com?subject=Some questions about 1uptalent") German Del Zotto.
-    %p All comments and questions are welcome. Including any things you like or dislike about this site.
 - data.portfolio.projects.group_by{|p| p.year}.sort_by{|y, p| 9_000-y}.each do |year, projects|
   .row.year
     .large-12.columns
