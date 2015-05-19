@@ -1,18 +1,218 @@
 projects:
   -
+    details: false
+    year: 2011
+    name: Valioo
+    customer: Valioo
+    brief: Web / Mobile Web
+    stack: Ruby on Rails, MySQL, EC2
+    notes: Wayra
+    url:
+    references: http://mis4hijas.es/2014/02/12/3-consejos-desde-ultratumba/
+  -
+    details: false
+    year: 2011
+    name: "<NDA>"
+    customer: Nilistics
+    brief: Consulting / Build System
+    stack: Java, Maven, Ivy
+    notes: Seattle (WA) based
+    url:
+    references: http://www.slideshare.net/amuino/maven-3-so-what
+  -
+    details: false
+    year: 2011
+    name: "<NDA>"
+    customer: "<NDA>"
+    brief: Web
+    stack: PHP, MySQL, Linux, Raphäel, Javascript
+    notes:
+    url:
+    references:
+  -
+    details: false
+    year: 2011
+    name: Decorapolis
+    customer: Decorapolis
+    brief: Web + API
+    stack: Ruby on Rails, MySQL, EC2
+    notes:
+    url: http://www.decorapolis.com
+    references:
+  -
+    details: false
+    year: 2011
+    name: Zoomry
+    customer: 1uptalent
+    brief: Web
+    stack: Ruby on Rails, MongoDB, Twitter API, EC2
+    notes:
+    url:
+    references: http://www.slideshare.net/betabeers/zoomry
+  -
+    details: false
+    year: 2011
+    name: ADDPRIV
+    customer: "<NDA>"
+    brief: Systems, Management
+    stack: Java, C, ffmpeg
+    notes: FP7 program, 2011-2014
+    url: http://www.addpriv.eu/
+    references:
+  -
+    details: false
+    year: 2012
+    name: Gus
+    customer: Valioo
+    brief: App
+    stack: Cordova (Android + iOS), Ruby on Rails, EC2, Espafil
+    notes:
+    url:
+    references: https://www.youtube.com/watch?v=m9XUFA8wF2A
+  -
+    details: false
+    year: 2012
+    name: Invoost
+    customer: Invoost
+    brief: Web+System
+    stack: Ruby on Rails, BackboneJS, MySQL, Redis, Websockets, EC2, Paypal API, e-signal
+      API, six-telekurs API, Skrill API
+    notes:
+    url: https://invoost.com/home
+    references: https://www.youtube.com/watch?v=osyQ51dnTsU
+  -
+    details: false
+    year: 2012
+    name: AlTaller
+    customer: AlTaller
+    brief: Web
+    stack: Ruby on Rails, PostgreSQL, Heroku, Dropbox API
+    notes:
+    url:
+    references: http://www.juancorbera.com/cerramos-altaller-es/
+  -
+    details: false
+    year: 2013
+    name: Invoost App
+    customer: Invoost
+    brief: App + Backend
+    stack: Cordova (Android + iOS)
+    notes:
+    url:
+    references:
+  -
+    details: false
+    year: 2013
+    name: Neupic
+    customer: Neupic
+    brief: App + Backend
+    stack: Cordova (Android + iOS), Backbone, Marionette, Ruby on Rails, EC2, MySQL
+    notes:
+    url:
+    references:
+  -
+    details: false
+    year: 2013
+    name: "<NDA>"
+    customer: "<NDA>"
+    brief: Web + API
+    stack: Ruby on Rails, PostgreSQL, Heroku, Google Maps API
+    notes:
+    url:
+    references:
+  -
+    details: false
+    year: 2013
+    name: Neupic Pro
+    customer: Neupic
+    brief: Web + System
+    stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, BrickFTP API, Google Maps
+      API
+    notes:
+    url: https://pro.neupic.com
+    references:
+  -
+    details: false
+    year: 2013
+    name: V1
+    customer: Hypernova
+    brief: Tech Mentoring
+    stack: Ruby on Rails, Javascript, Python, Django, Parse
+    notes: |-
+      Mentoring selected Talentum interns to help them develop MVCs for two products.
+      Currently it is being reshaped into "Hypernova V2" (link)
+    url: http://hypernova.es/
+    references:
+  -
+    details: false
+    year: 2014
+    name: Dockerize.it
+    customer: 1uptalent
+    brief: Web + System
+    stack: Ruby on Rails, Docker, Google Compute Engine, MySQL, Redis, RabbitMQ
+    notes:
+    url:
+    references: http://www.slideshare.net/betabeers/dockerizeit
+  -
+    details: false
+    year: 2014
+    name: Neupic
+    customer: Neupic
+    brief: Web + System
+    stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, Twitter API, Stripe API
+    notes:
+    url: https://neupic.com
+    references:
+  -
+    details: false
+    year: 2014
+    name: Accelarator program
+    customer: TopSeedsLab
+    brief: Tech Mentoring (2014-Present)
+    stack: Ruby on Rails, Linux, PHP, Python, iOS, Android, MySQL, Parse, WordPress
+    notes: Helping accepted startups with their techological issues and decissions
+    url:
+    references: |-
+      http://www.f6s.com/topseedslab
+      http://www.larazon.es/premios-tu-economia-2015-iniciativa-innovacion-y-tenacidad-principales-valores-de-los-ganadores-NF9700618#.Ttt1voWg9QNGAwh
+  -
+    details: false
+    year: 2014
+    name: CrackReport10
+    customer: CrackRepor10
+    brief: Web
+    stack: Ruby on Rails, MySQL, Redis, EC2, Mailjet API, Google Spreadsheets API, Stripe
+      API, Paypal API
+    notes:
+    url: https://crackreport10.com
+    references:
+  -
+    details: false
+    year: 2014
+    name:
+    customer: Tyler
+    brief: Management
+    stack:
+    notes:
+    url:
+    references:
+  -
+    details: true
     year: 2014
     name: 4time
-    details: true
-    description: Time sharing app
-    stack: Ruby on Rails, MySQL, EC2, Stripe API, Ansible
+    customer: 4time
+    brief: App + Backend
+    stack: Cordova (Android + iOS), BackboneJS, Marionette, Ruby on Rails, EC2, MySQL
+    notes:
+    url: http://4timeapp.com/
+    references:
   -
-    year: 2014
-    name: neupic.com
-    description: self publishing newspaper
-    stack: Ruby on Rails, MySQL, EC2, Stripe API, Ansible
-  -
+    details: false
     year: 2015
     name: trustable.io
-    details: true
-    description: blah blah
-    stack: Ruby on Rails, MySQL, Linux, Ansible
+    customer: 1uptalent
+    brief: Web
+    stack: Ruby on Rails, MySQL
+    notes:
+    url: https://trustable.io
+    references:
