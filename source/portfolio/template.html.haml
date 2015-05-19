@@ -1,0 +1,11 @@
+.row.text-center
+  .large-4.columns
+    %a(href="mailto:amuino@1uptalent.com?subject=Some questions about 1uptalent")
+      email
+  .large-4.columns
+    %a(href="http://linkedin.com/in/amuino" target="_blank")
+      linked in
+  .large-4.columns
+    %a(href="https://twitter.com/amuino" target="_blank")
+      @amuino on twitter
+= partial "portfolio/#{project.name}" if File.exists?("source/portfolio/_#{project.name}.html.haml")

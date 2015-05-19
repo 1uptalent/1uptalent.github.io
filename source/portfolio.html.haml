@@ -14,7 +14,8 @@
     - projects.each do |project|
       .project.large-12.columns
         .large-5.large-offset-1.columns
-          %span #{project.name}
+          %a{href: project.name} #{project.name}
+
         .large-5.large-offset-1.columns
           %span #{project.description}
         .large-12.columns
