@@ -5,7 +5,10 @@
     - projects.each do |project|
       .project.large-12.columns
         .large-5.large-offset-1.columns
-          %a{href: project.name} #{project.name}
+          - if project.details
+            %a{href: project.name} #{project.name}
+          -else
+            %span #{project.name}
 
         .large-5.large-offset-1.columns
           %span #{project.description}

@@ -2,6 +2,7 @@ projects:
   -
     year: 2014
     name: 4time
+    details: true
     description: Time sharing app
     stack: Ruby on Rails, MySQL, EC2, Stripe API, Ansible
   -
@@ -12,5 +13,6 @@ projects:
   -
     year: 2015
     name: trustable.io
+    details: true
     description: blah blah
     stack: Ruby on Rails, MySQL, Linux, Ansible
