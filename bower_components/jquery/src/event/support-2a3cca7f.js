@@ -1,1 +1,0 @@
-define(["../var/support"],function(t){return t.focusinBubbles="onfocusin"in window,t});

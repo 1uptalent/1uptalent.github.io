@@ -1,1 +1,0 @@
-Modernizr.addTest("emoji",function(){if(!Modernizr.canvastext)return!1;var t=document.createElement("canvas"),e=t.getContext("2d");return e.textBaseline="top",e.font="32px Arial",e.fillText("\ud83d\ude03",0,0),0!==e.getImageData(16,16,1,1).data[0]});

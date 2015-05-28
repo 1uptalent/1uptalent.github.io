@@ -1,1 +1,0 @@
-Modernizr.addTest("fullscreen",function(){for(var t=0;t<Modernizr._domPrefixes.length;t++)if(document[Modernizr._domPrefixes[t].toLowerCase()+"CancelFullScreen"])return!0;return!!document.cancelFullScreen||!1});

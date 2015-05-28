@@ -108,9 +108,10 @@
       
       <p>Chrome 32+ on Android with <code>width=device-width</code> in the <a href="https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag">viewport meta tag</a> doesn't have a 300ms delay, therefore listeners aren't attached.</p>
       
-      <p><code>html
-      &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-      </code></p>
+      <p>```html</p>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+      <p>```</p>
       
       <p>Same goes for Chrome on Android (all versions) with <code>user-scalable=no</code> in the viewport meta tag. But be aware that <code>user-scalable=no</code> also disables pinch zooming, which may be an accessibility concern.</p>
       

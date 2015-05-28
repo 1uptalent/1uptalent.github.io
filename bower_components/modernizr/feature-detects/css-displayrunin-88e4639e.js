@@ -1,1 +1,0 @@
-Modernizr.testStyles(" #modernizr { display: run-in; } ",function(t){var e=window.getComputedStyle?getComputedStyle(t,null).getPropertyValue("display"):t.currentStyle.display;Modernizr.addTest("display-runin","run-in"==e)});
