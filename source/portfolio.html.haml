@@ -1,18 +1,39 @@
+.row
+  .large-12.columns
+    %p This is a year by year outline of all the projects that we started.
+    %p Because we build startups for our clients, there is some confidential information we are not able to share.
 - data.portfolio.projects.group_by{|p| p.year}.sort_by{|y, p| 9_000-y}.each do |year, projects|
   .row.year
     .large-12.columns
       %h2 #{year}
-    - projects.each do |project|
-      .project.large-12.columns
-        .large-5.large-offset-1.columns
-          - if project.details
-            %a{href: project.name} #{project.name}
-          -else
-            %span #{project.name}
-
-        .large-5.large-offset-1.columns
-          %span #{project.description}
-        .large-12.columns
-          %ul
-          - project.stack.to_s.split(',').each do |buzzword|
-            %li #{buzzword.strip}
+  .row
+    %ul.projects.small-block-grid-1.medium-block-grid-2
+      - projects.each_with_index do |project, index|
+        %li.project
+          - banner_url = image_path("portfolio/#{project.banner}")
+          .row.name
+            .large-12.columns
+              %h3.large-12.columns.title
+                - if project.details
+                  %a{href: project.name}= project.name
+                -else
+                  %span=h project.name
+                - if project.customer and project.customer != project.name
+                  %span.customer
+                    for
+                    =h project.customer
+          .row.banner{style: "background-image: url(#{banner_url})"}
+          .row.content
+            .large-8.columns
+              .row.description
+                .large-12.columns
+                  - if project.brief?
+                    %p <strong>Summary:</strong> #{project.brief}
+                  - if project.notes?
+                    %p= project.notes
+            .large-4.columns
+              .row.stack
+                .large-12.columns
+                  %ul
+                    - project.stack.to_s.split(',').each do |buzzword|
+                      %li #{buzzword.strip}
