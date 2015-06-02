@@ -203,7 +203,7 @@ projects:
     brief: App + Backend
     stack: Cordova (Android + iOS), BackboneJS, Marionette, Ruby on Rails, EC2, MySQL
     notes:
-    banner:
+    banner: '4time-banner.png'
     url: http://4timeapp.com/
     references:
   - details: false
