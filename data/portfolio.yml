@@ -87,7 +87,7 @@ projects:
     brief: Web
     stack: Ruby on Rails, PostgreSQL, Heroku, Dropbox API
     notes:
-    banner:
+    banner: 'altaller-banner.png'
     url:
     references: http://www.juancorbera.com/cerramos-altaller-es/
   - details: false
