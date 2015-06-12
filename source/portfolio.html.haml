@@ -10,7 +10,7 @@
     %ul.projects.small-block-grid-1.medium-block-grid-2
       - projects.each_with_index do |project, index|
         %li.project
-          - banner_url = image_path("portfolio/#{project.banner}")
+          - banner_url = image_path("portfolio/#{project.banner || 'no-banner.png'}")
           .row.name
             .large-12.columns
               %h3.large-12.columns.title
