@@ -5,7 +5,8 @@ projects:
     customer: Valioo
     brief: Web / Mobile Web
     stack: Ruby on Rails, MySQL, EC2
-    notes: Wayra
+    notes: |
+      A directory for local business with integrated feedback forms. The project made its way into Wayra (Telefonica's accelerator program)
     banner: valioo-banner.png
     url:
     references: http://mis4hijas.es/2014/02/12/3-consejos-desde-ultratumba/
@@ -15,7 +16,7 @@ projects:
     customer: Nilistics
     brief: Consulting / Build System
     stack: Java, Maven, Ivy
-    notes: Seattle (WA) based
+    notes: Remote work with Seattle (WA) based company, mainly on Maven integration
     banner:
     url:
     references: http://www.slideshare.net/amuino/maven-3-so-what
@@ -25,7 +26,8 @@ projects:
     customer: "<NDA>"
     brief: Web
     stack: PHP, MySQL, Linux, Raphäel, Javascript
-    notes:
+    notes: |
+      Front-end work to build a graph visualization on top of existing project management data, allowing updates and additions of nodes.
     banner:
     url:
     references:
@@ -35,7 +37,8 @@ projects:
     customer: Decorapolis
     brief: Web + API
     stack: Ruby on Rails, MySQL, EC2
-    notes:
+    notes: |
+      Decorapolis is a visual catalog of worldwide geolocated objects and ambiences, related to art, design and decoration. Regular users can spot anything, anywhere. Businesses can build and publish their catalogs.
     banner: decorapolis-banner.jpg
     url: http://www.decorapolis.com
     references:
@@ -45,7 +48,8 @@ projects:
     customer: 1uptalent
     brief: Web
     stack: Ruby on Rails, MongoDB, Twitter API, EC2
-    notes:
+    notes: |
+      Zoomry is a tool to monitor and analyze twitter activity around an event. Most influential users and tweets are detected and displayed in real-time, providing a "second screen" for the event.
     banner: zoomry-banner.png
     url:
     references: http://www.slideshare.net/betabeers/zoomry
@@ -56,17 +60,21 @@ projects:
     brief: Project Management + Backend development
     stack: ruby, C, ffmpeg, libav, mongodb
     notes: |
-      FP7 program, 2011-2014
+      During this multi-year project, we handled management activities and coordination with other partners, as well as implementing the backend solution for storing, searching and displaying the video-related information.
+      Part of the european FP7 program, 2011-2014
     banner: addpriv-banner.jpg
     url: http://www.addpriv.eu/
     references:
   - details: false
     year: 2012
-    name: Gus
+    name: GusApp
     customer: Valioo
     brief: App
-    stack: Cordova (Android + iOS), Ruby on Rails, EC2, Espafil
-    notes:
+    stack: Cordova (Android + iOS), Ruby on Rails, EC2, Espafil, Amazon Product Advertisement API
+    notes: |
+      Hybrid mobile app allowing the user to quickly rate and organize their
+      book collection. The app would learn and recomend new books, which could
+      be purchased through Amazon from the app.
     banner: gus-banner.jpg
     url:
     references: https://www.youtube.com/watch?v=m9XUFA8wF2A
@@ -77,7 +85,9 @@ projects:
     brief: Web+System
     stack: Ruby on Rails, BackboneJS, MySQL, Redis, Websockets, EC2, Paypal API, e-signal
       API, six-telekurs API, Skrill API
-    notes:
+    notes: |
+      A real time, real data, stock trading simulation game.
+      Price data for IBEX35 (Spain) and NASDAQ (US) were used.
     banner: invoost-banner.png
     url: https://invoost.com/home
     references: https://www.youtube.com/watch?v=osyQ51dnTsU
@@ -87,7 +97,8 @@ projects:
     customer: AlTaller
     brief: Web
     stack: Ruby on Rails, PostgreSQL, Heroku, Dropbox API
-    notes:
+    notes: |
+      Garage booking service for Spain. Aquired by competitor tallerestop.com
     banner: altaller-banner.jpg
     url:
     references: http://www.juancorbera.com/cerramos-altaller-es/
@@ -97,7 +108,8 @@ projects:
     customer: Invoost
     brief: App + Backend
     stack: Cordova (Android + iOS)
-    notes:
+    notes: |
+      A hybrid mobile app for the Invoost stock trading simulation game.
     banner: invoost-app-banner.jpg
     url:
     references:
@@ -107,7 +119,9 @@ projects:
     customer: Neupic
     brief: App + Backend
     stack: Cordova (Android + iOS), Backbone, Marionette, Ruby on Rails, EC2, MySQL
-    notes:
+    notes: |
+      Hybrid mobile app for citizen journalism, allowing the creation of mini reports, picture upload… Media had the option to request specific content, rewarding reporters for providing it.
+      This was an early form of the Neupic Pro platform developed later.
     banner: neupic-app-banner.jpg
     url:
     references:
@@ -117,7 +131,8 @@ projects:
     customer: "<NDA>"
     brief: Web + API
     stack: Ruby on Rails, PostgreSQL, Heroku, Google Maps API
-    notes:
+    notes: |
+      Evolution and support of a legacy codebase for a directory of companies and success stories.
     banner:
     url:
     references:
@@ -128,7 +143,8 @@ projects:
     brief: Web + System
     stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, BrickFTP API, Google Maps
       API
-    notes:
+    notes: |
+      Two-sided marketplace for connecting reporters with media. Reporters can offer their content on the marketplace for the media to buy. Media can also request specific topics to be covered.
     banner: neupic-pro-banner.jpg
     url: https://pro.neupic.com
     references:
@@ -168,11 +184,12 @@ projects:
     year: 2014
     name: Accelerator program
     customer: TopSeedsLab
-    brief: Tech Mentoring (2014-Present)
+    brief: Tech Mentoring
     stack: Ruby on Rails, Linux, PHP, Python, iOS, Android, MySQL, Parse, WordPress
-    notes: Helping accepted startups with their techological issues and decissions
+    notes: |
+      Helping accepted startups with their techological issues and decissions for 3 editions (2014-2015)
     banner: tsl-banner.jpg
-    url:
+    url: http://www.topseedslab.com/
     references: |-
       http://www.f6s.com/topseedslab
       http://www.larazon.es/premios-tu-economia-2015-iniciativa-innovacion-y-tenacidad-principales-valores-de-los-ganadores-NF9700618#.Ttt1voWg9QNGAwh
