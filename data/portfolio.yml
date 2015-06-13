@@ -53,9 +53,10 @@ projects:
     year: 2011
     name: ADDPRIV
     customer: "<NDA>"
-    brief: Systems, Management
-    stack: ruby, C, ffmpeg, libav
-    notes: FP7 program, 2011-2014
+    brief: Project Management + Backend development
+    stack: ruby, C, ffmpeg, libav, mongodb
+    notes: |
+      FP7 program, 2011-2014
     banner: addpriv-banner.jpg
     url: http://www.addpriv.eu/
     references:
@@ -212,7 +213,10 @@ projects:
     customer: 1uptalent
     brief: Web
     stack: Ruby on Rails, MySQL
-    notes:
+    notes: |
+      We banded together with some friends with the purpose of building
+      a very simple tool for curating our «network of trust», in order to help
+      entrepreneurs when choosing an external team or freelance.
     banner: 'trustable-banner.png'
     url: https://trustable.io
     references:
