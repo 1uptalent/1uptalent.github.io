@@ -6,7 +6,7 @@ projects:
     brief: Web / Mobile Web
     stack: Ruby on Rails, MySQL, EC2
     notes: Wayra
-    banner:
+    banner: valioo-banner.png
     url:
     references: http://mis4hijas.es/2014/02/12/3-consejos-desde-ultratumba/
   - details: false
@@ -36,7 +36,7 @@ projects:
     brief: Web + API
     stack: Ruby on Rails, MySQL, EC2
     notes:
-    banner:
+    banner: decorapolis-banner.jpg
     url: http://www.decorapolis.com
     references:
   - details: false
@@ -46,7 +46,7 @@ projects:
     brief: Web
     stack: Ruby on Rails, MongoDB, Twitter API, EC2
     notes:
-    banner:
+    banner: zoomry-banner.png
     url:
     references: http://www.slideshare.net/betabeers/zoomry
   - details: false
@@ -54,9 +54,9 @@ projects:
     name: ADDPRIV
     customer: "<NDA>"
     brief: Systems, Management
-    stack: Java, C, ffmpeg
+    stack: ruby, C, ffmpeg, libav
     notes: FP7 program, 2011-2014
-    banner:
+    banner: addpriv-banner.jpg
     url: http://www.addpriv.eu/
     references:
   - details: false
@@ -66,7 +66,7 @@ projects:
     brief: App
     stack: Cordova (Android + iOS), Ruby on Rails, EC2, Espafil
     notes:
-    banner:
+    banner: gus-banner.jpg
     url:
     references: https://www.youtube.com/watch?v=m9XUFA8wF2A
   - details: false
@@ -77,7 +77,7 @@ projects:
     stack: Ruby on Rails, BackboneJS, MySQL, Redis, Websockets, EC2, Paypal API, e-signal
       API, six-telekurs API, Skrill API
     notes:
-    banner:
+    banner: invoost-banner.png
     url: https://invoost.com/home
     references: https://www.youtube.com/watch?v=osyQ51dnTsU
   - details: false
@@ -87,7 +87,7 @@ projects:
     brief: Web
     stack: Ruby on Rails, PostgreSQL, Heroku, Dropbox API
     notes:
-    banner: 'altaller-banner.png'
+    banner: altaller-banner.jpg
     url:
     references: http://www.juancorbera.com/cerramos-altaller-es/
   - details: false
@@ -97,17 +97,17 @@ projects:
     brief: App + Backend
     stack: Cordova (Android + iOS)
     notes:
-    banner:
+    banner: invoost-app-banner.jpg
     url:
     references:
   - details: false
     year: 2013
-    name: Neupic
+    name: Neupic App
     customer: Neupic
     brief: App + Backend
     stack: Cordova (Android + iOS), Backbone, Marionette, Ruby on Rails, EC2, MySQL
     notes:
-    banner:
+    banner: neupic-app-banner.jpg
     url:
     references:
   - details: false
@@ -128,7 +128,7 @@ projects:
     stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, BrickFTP API, Google Maps
       API
     notes:
-    banner:
+    banner: neupic-pro-banner.jpg
     url: https://pro.neupic.com
     references:
   - details: false
@@ -140,7 +140,7 @@ projects:
     notes: |-
       Mentoring selected Talentum interns to help them develop MVCs for two products.
       Currently it is being reshaped into "Hypernova V2" (link)
-    banner: 'hypernova-banner.png'
+    banner: hypernova-banner.jpg
     url: http://hypernova.es/
     references:
   - details: false
@@ -170,7 +170,7 @@ projects:
     brief: Tech Mentoring (2014-Present)
     stack: Ruby on Rails, Linux, PHP, Python, iOS, Android, MySQL, Parse, WordPress
     notes: Helping accepted startups with their techological issues and decissions
-    banner: 'tsl-banner.png'
+    banner: tsl-banner.jpg
     url:
     references: |-
       http://www.f6s.com/topseedslab
@@ -183,7 +183,7 @@ projects:
     stack: Ruby on Rails, MySQL, Redis, EC2, Mailjet API, Google Spreadsheets API, Stripe
       API, Paypal API
     notes:
-    banner: cr10-banner.png
+    banner: cr10-banner.jpg
     url: https://crackreport10.com
     references:
   - details: false
@@ -203,7 +203,7 @@ projects:
     brief: App + Backend
     stack: Cordova (Android + iOS), BackboneJS, Marionette, Ruby on Rails, EC2, MySQL
     notes:
-    banner: '4time-banner.png'
+    banner: 4time-banner.png
     url: http://4timeapp.com/
     references:
   - details: false
