@@ -3,9 +3,10 @@
     %p This is a year by year outline of all the projects that we started.
     %p Because we build startups for our clients, there is some confidential information we are not able to share.
 - data.portfolio.projects.group_by{|p| p.year}.sort_by{|y, p| 9_000-y}.each do |year, projects|
-  .row.year
-    .large-12.columns
-      %h2 #{year}
+  .year-container
+    .row.year
+      .large-12.columns
+        %h2 #{year}
   .row
     %ul.projects.small-block-grid-1.medium-block-grid-2
       - projects.each_with_index do |project, index|
