@@ -1,0 +1,251 @@
+projects:
+  - details: false
+    year: 2011
+    name: Valioo
+    customer: Valioo
+    brief: Web / Mobile Web
+    stack: Ruby on Rails, MySQL, EC2
+    notes: |
+      A directory for local business with integrated feedback forms. The project made its way into Wayra (Telefonica's accelerator program)
+    banner: valioo-banner.png
+    url:
+    references: http://mis4hijas.es/2014/02/12/3-consejos-desde-ultratumba/
+  - details: false
+    year: 2011
+    name: "<NDA>"
+    customer: Nilistics
+    brief: Consulting / Build System
+    stack: Java, Maven, Ivy
+    notes: Remote work with Seattle (WA) based company, mainly on Maven integration
+    banner:
+    url:
+    references: http://www.slideshare.net/amuino/maven-3-so-what
+  - details: false
+    year: 2011
+    name: "<NDA>"
+    customer: "<NDA>"
+    brief: Web
+    stack: PHP, MySQL, Linux, Raphäel, Javascript
+    notes: |
+      Front-end work to build a graph visualization on top of existing project management data, allowing updates and additions of nodes.
+    banner:
+    url:
+    references:
+  - details: false
+    year: 2011
+    name: Decorapolis
+    customer: Decorapolis
+    brief: Web + API
+    stack: Ruby on Rails, MySQL, EC2
+    notes: |
+      Decorapolis is a visual catalog of worldwide geolocated objects and ambiences, related to art, design and decoration. Regular users can spot anything, anywhere. Businesses can build and publish their catalogs.
+    banner: decorapolis-banner.jpg
+    url: http://www.decorapolis.com
+    references:
+  - details: false
+    year: 2011
+    name: Zoomry
+    customer: 1uptalent
+    brief: Web
+    stack: Ruby on Rails, MongoDB, Twitter API, EC2
+    notes: |
+      Zoomry is a tool to monitor and analyze twitter activity around an event. Most influential users and tweets are detected and displayed in real-time, providing a "second screen" for the event.
+    banner: zoomry-banner.png
+    url:
+    references: http://www.slideshare.net/betabeers/zoomry
+  - details: false
+    year: 2011
+    name: ADDPRIV
+    customer: "<NDA>"
+    brief: Project Management + Backend development
+    stack: ruby, C, ffmpeg, libav, mongodb
+    notes: |
+      During this multi-year project, we handled management activities and coordination with other partners, as well as implementing the backend solution for storing, searching and displaying the video-related information.
+      Part of the european FP7 program, 2011-2014
+    banner: addpriv-banner.jpg
+    url: http://www.addpriv.eu/
+    references:
+  - details: false
+    year: 2012
+    name: GusApp
+    customer: Valioo
+    brief: App
+    stack: Cordova Android & iOS, Ruby on Rails, EC2, Espafil, Amazon Product Advertisement API
+    notes: |
+      Hybrid mobile app allowing the user to quickly rate and organize their
+      book collection. The app would learn and recomend new books, which could
+      be purchased through Amazon from the app.
+    banner: gus-banner.jpg
+    url:
+    references: https://www.youtube.com/watch?v=m9XUFA8wF2A
+  - details: false
+    year: 2012
+    name: Invoost
+    customer: Invoost
+    brief: Web+System
+    stack: Ruby on Rails, BackboneJS, MySQL, Redis, Websockets, EC2, Paypal API, e-signal
+      API, six-telekurs API, Skrill API
+    notes: |
+      A real time, real data, stock trading simulation game.
+      Price data for IBEX35 (Spain) and NASDAQ (US) were used.
+    banner: invoost-banner.png
+    url: https://invoost.com/home
+    references: https://www.youtube.com/watch?v=osyQ51dnTsU
+  - details: false
+    year: 2012
+    name: AlTaller
+    customer: AlTaller
+    brief: Web
+    stack: Ruby on Rails, PostgreSQL, Heroku, Dropbox API
+    notes: |
+      Garage booking service for Spain. Aquired by competitor tallerestop.com
+    banner: altaller-banner.jpg
+    url:
+    references: http://www.juancorbera.com/cerramos-altaller-es/
+  - details: false
+    year: 2013
+    name: Invoost App
+    customer: Invoost
+    brief: App + Backend
+    stack: Cordova Android & iOS
+    notes: |
+      A hybrid mobile app for the Invoost stock trading simulation game.
+    banner: invoost-app-banner.jpg
+    url:
+    references:
+  - details: false
+    year: 2013
+    name: Neupic App
+    customer: Neupic
+    brief: App + Backend
+    stack: Cordova Android & iOS, Backbone, Marionette, Ruby on Rails, EC2, MySQL
+    notes: |
+      Hybrid mobile app for citizen journalism, allowing the creation of mini reports, picture upload… Media had the option to request specific content, rewarding reporters for providing it.
+      This was an early form of the Neupic Pro platform developed later.
+    banner: neupic-app-banner.jpg
+    url:
+    references:
+  - details: false
+    year: 2013
+    name: "<NDA>"
+    customer: "<NDA>"
+    brief: Web + API
+    stack: Ruby on Rails, PostgreSQL, Heroku, Google Maps API
+    notes: |
+      Evolution and support of a legacy codebase for a directory of companies and success stories.
+    banner:
+    url:
+    references:
+  - details: false
+    year: 2013
+    name: Neupic Pro
+    customer: Neupic
+    brief: Web + System
+    stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, BrickFTP API, Google Maps
+      API
+    notes: |
+      Two-sided marketplace for connecting reporters with media. Reporters can offer their content on the marketplace for the media to buy. Media can also request specific topics to be covered.
+    banner: neupic-pro-banner.jpg
+    url: https://pro.neupic.com
+    references:
+  - details: false
+    year: 2013
+    name: V1
+    customer: Hypernova
+    brief: Tech Mentoring
+    stack: Ruby on Rails, Javascript, Python, Django, Parse
+    notes: |-
+      Mentoring selected Talentum interns to help them develop MVCs for two products.
+      Currently it is being reshaped into "Hypernova V2" (link)
+    banner: hypernova-banner.jpg
+    url: http://hypernova.es/
+    references:
+  - details: false
+    year: 2014
+    name: Dockerize.it
+    customer: 1uptalent
+    brief: Web + System
+    stack: Ruby on Rails, Docker, Google Compute Engine, MySQL, Redis, RabbitMQ, EventMachine
+    notes: |
+      A SaaS service to manage a number of docker containers in your own hosts,
+      with the goal of making docker deployments and orchestration easier for
+      developers.
+      It was built around microservices and light message bus.
+    banner: 'dockerizeit-banner.png'
+    url:
+    references: http://www.slideshare.net/betabeers/dockerizeit
+  - details: false
+    year: 2014
+    name: Neupic
+    customer: Neupic
+    brief: Web + System
+    stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, Twitter API, Stripe API
+    notes: |
+      Publishing platform for authors where readers can directly subscribe to
+      individual authors, financing their work and building independant
+      journalism without advertisers or editorial guidelines.
+    banner: 'neupic-banner.png'
+    url: https://neupic.com
+    references:
+  - details: false
+    year: 2014
+    name: Accelerator program
+    customer: TopSeedsLab
+    brief: Tech Mentoring
+    stack: Ruby on Rails, Linux, PHP, Python, iOS, Android, MySQL, Parse, WordPress
+    notes: |
+      Helping accepted startups with their techological issues and decissions for 3 editions (2014-2015)
+    banner: tsl-banner.jpg
+    url: http://www.topseedslab.com/
+    references: |-
+      http://www.f6s.com/topseedslab
+      http://www.larazon.es/premios-tu-economia-2015-iniciativa-innovacion-y-tenacidad-principales-valores-de-los-ganadores-NF9700618#.Ttt1voWg9QNGAwh
+  - details: false
+    year: 2014
+    name: CrackReport10
+    customer: CrackReport10
+    brief: Web
+    stack: Ruby on Rails, MySQL, Redis, EC2, Mailjet API, Google Spreadsheets API, Stripe
+      API, Paypal API
+    notes: |
+      Subscription-based betting advice for sports. Tipsters can be compared
+      and selected based on their past performance.
+    banner: cr10-banner.jpg
+    url: https://crackreport10.com
+    references:
+  - details: false
+    year: 2014
+    name: OwlU
+    customer: Tyler
+    brief: Management
+    stack:
+    notes: Acting as interim-CTO and help in the communication/planning between the CEO/Business team and the external agency in charge of development
+    banner: 'owlu-banner.png'
+    url: http://owlu.com/
+    references:
+  - details: false
+    year: 2014
+    name: 4time
+    customer: 4time
+    brief: App + Backend
+    stack: Cordova Android & iOS, BackboneJS, Marionette, Ruby on Rails, EC2, MySQL
+    notes: |
+      Hybrid mobile app for the sharing economy. Users offer and consume services
+      from other users by trading their time. Directory of services, real time chat,
+      transactions and ratings carried on the phone.
+    banner: 4time-banner.png
+    url: http://4timeapp.com/
+    references:
+  - details: false
+    year: 2015
+    name: trustable.io
+    customer: 1uptalent
+    brief: Web
+    stack: Ruby on Rails, MySQL
+    notes: |
+      We banded together with some friends with the purpose of building
+      a very simple tool for curating our «network of trust», in order to help
+      entrepreneurs when choosing an external team or freelance.
+    banner: 'trustable-banner.png'
+    url: https://trustable.io
+    references:

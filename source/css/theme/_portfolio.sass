@@ -1,2 +1,62 @@
-body.portfolio_index
-  
+body.portfolio
+  .year-container
+    background: $white
+  .year
+    margin: 2em auto
+    padding: 1em 0
+    h2
+      font-size: 4.5em
+      line-height: 1
+      margin: 0 0 -0.15em 0
+  .project
+    margin-bottom: 3em
+    .name a
+      color: $real_white
+      text-decoration: underline
+      &:hover
+        color: $white
+  .customer
+    font-size: 0.7em
+    font-weight: normal
+    font-variant: small-caps
+    white-space: nowrap
+  strong
+    font-family: $serif
+  .row.banner
+    background: $real_white top center no-repeat
+    background-size: 100%
+    height: 80px
+    height: 37vw
+    @media #{$medium-up}
+      height: 120px
+      height: 16vw
+    @media #{$large-up}
+      height: 180px
+    margin: 0
+    position: relative
+  .row.name
+    .title
+      background: $alt_red
+      color: $white
+      margin-bottom: 0
+      padding-top: 0.5rem
+      padding-bottom: 0.5rem
+  .row.content
+    margin: 0
+  .stack
+    > div
+      padding-right: 0
+    ul, li
+      list-style: none
+      padding: 0
+      margin: 0
+    ul
+      text-align: right
+    li
+      font-size: 0.7em
+      font-variant: small-caps
+      padding: 0 0.2em
+      border: 1px solid #ccc
+      border-radius: 0.7em
+      display: inline-block
+      background-color: #f5f5f5

@@ -127,6 +127,10 @@ page '/blog/*.html', layout: 'blog'
 page '/blog/feed.xml', layout: false
 page "/404.html", directory_index: false, layout: 'default'
 
+data.portfolio.projects.each do |project|
+  proxy "/portfolio/#{project.name}.html", '/portfolio/template.html', locals: {project: project}, ignore: true
+end
+
 redirects = {
   '/blog/2011/04/its-a-dangerous-business' => [
     '2011/04/its-a-dangerous-business…',

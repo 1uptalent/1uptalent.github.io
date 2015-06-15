@@ -1,0 +1,46 @@
+.row
+  .large-12.columns
+    %p This is a year by year outline of all the projects that we started.
+    %p Because we build startups for our clients, there is some confidential information we are not able to share.
+- data.portfolio.projects.group_by{|p| p.year}.sort_by{|y, p| 9_000-y}.each do |year, projects|
+  .year-container
+    .row.year
+      .large-12.columns
+        %h2 #{year}
+  .row
+    %ul.projects.small-block-grid-1.medium-block-grid-2
+      - projects.each_with_index do |project, index|
+        %li.project
+          - banner_url = image_path("portfolio/#{project.banner || 'no-banner.png'}")
+          .row.name
+            .large-12.columns
+              %h3.large-12.columns.title
+                - if project.details
+                  %a{href: project.name}= project.name
+                -else
+                  %span=h project.name
+                - if project.customer and project.customer != project.name
+                  %span.customer
+                    for
+                    =h project.customer
+          .row.banner{style: "background-image: url(#{banner_url})"}
+          .row.content
+            .large-9.columns
+              .row.description
+                .large-12.columns
+                  - if project.brief?
+                    %p <strong>Summary:</strong> #{project.brief}
+                  - if project.notes?
+                    %p= project.notes
+              - if project.url?
+                .row.link
+                  .large-12.columns
+                    %p
+                      %strong Website:
+                      %a{href: project.url, target: '_blank', rel: 'nofollow'}= project.url
+            .large-3.columns
+              .row.stack
+                .large-12.columns
+                  %ul
+                    - project.stack.to_s.split(',').each do |buzzword|
+                      %li #{buzzword.strip}
