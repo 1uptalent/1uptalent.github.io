@@ -70,7 +70,7 @@ projects:
     name: GusApp
     customer: Valioo
     brief: App
-    stack: Cordova (Android + iOS), Ruby on Rails, EC2, Espafil, Amazon Product Advertisement API
+    stack: Cordova Android & iOS, Ruby on Rails, EC2, Espafil, Amazon Product Advertisement API
     notes: |
       Hybrid mobile app allowing the user to quickly rate and organize their
       book collection. The app would learn and recomend new books, which could
@@ -107,7 +107,7 @@ projects:
     name: Invoost App
     customer: Invoost
     brief: App + Backend
-    stack: Cordova (Android + iOS)
+    stack: Cordova Android & iOS
     notes: |
       A hybrid mobile app for the Invoost stock trading simulation game.
     banner: invoost-app-banner.jpg
@@ -118,7 +118,7 @@ projects:
     name: Neupic App
     customer: Neupic
     brief: App + Backend
-    stack: Cordova (Android + iOS), Backbone, Marionette, Ruby on Rails, EC2, MySQL
+    stack: Cordova Android & iOS, Backbone, Marionette, Ruby on Rails, EC2, MySQL
     notes: |
       Hybrid mobile app for citizen journalism, allowing the creation of mini reports, picture upload… Media had the option to request specific content, rewarding reporters for providing it.
       This was an early form of the Neupic Pro platform developed later.
@@ -165,8 +165,12 @@ projects:
     name: Dockerize.it
     customer: 1uptalent
     brief: Web + System
-    stack: Ruby on Rails, Docker, Google Compute Engine, MySQL, Redis, RabbitMQ
-    notes:
+    stack: Ruby on Rails, Docker, Google Compute Engine, MySQL, Redis, RabbitMQ, EventMachine
+    notes: |
+      A SaaS service to manage a number of docker containers in your own hosts,
+      with the goal of making docker deployments and orchestration easier for
+      developers.
+      It was built around microservices and light message bus.
     banner: 'dockerizeit-banner.png'
     url:
     references: http://www.slideshare.net/betabeers/dockerizeit
@@ -176,7 +180,10 @@ projects:
     customer: Neupic
     brief: Web + System
     stack: Ruby on Rails, MySQL, Redis, EC2, HeyWatch API, Twitter API, Stripe API
-    notes:
+    notes: |
+      Publishing platform for authors where readers can directly subscribe to
+      individual authors, financing their work and building independant
+      journalism without advertisers or editorial guidelines.
     banner: 'neupic-banner.png'
     url: https://neupic.com
     references:
@@ -200,7 +207,9 @@ projects:
     brief: Web
     stack: Ruby on Rails, MySQL, Redis, EC2, Mailjet API, Google Spreadsheets API, Stripe
       API, Paypal API
-    notes:
+    notes: |
+      Subscription-based betting advice for sports. Tipsters can be compared
+      and selected based on their past performance.
     banner: cr10-banner.jpg
     url: https://crackreport10.com
     references:
@@ -210,17 +219,20 @@ projects:
     customer: Tyler
     brief: Management
     stack:
-    notes: Hired to act as an interim-CTO and help in the communication between the CEO/Business team and the external agency in charge of development
+    notes: Acting as interim-CTO and help in the communication/planning between the CEO/Business team and the external agency in charge of development
     banner: 'owlu-banner.png'
     url: http://owlu.com/
     references:
-  - details: true
+  - details: false
     year: 2014
     name: 4time
     customer: 4time
     brief: App + Backend
-    stack: Cordova (Android + iOS), BackboneJS, Marionette, Ruby on Rails, EC2, MySQL
-    notes:
+    stack: Cordova Android & iOS, BackboneJS, Marionette, Ruby on Rails, EC2, MySQL
+    notes: |
+      Hybrid mobile app for the sharing economy. Users offer and consume services
+      from other users by trading their time. Directory of services, real time chat,
+      transactions and ratings carried on the phone.
     banner: 4time-banner.png
     url: http://4timeapp.com/
     references:
