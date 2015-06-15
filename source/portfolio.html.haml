@@ -25,7 +25,7 @@
                     =h project.customer
           .row.banner{style: "background-image: url(#{banner_url})"}
           .row.content
-            .large-8.columns
+            .large-9.columns
               .row.description
                 .large-12.columns
                   - if project.brief?
@@ -38,7 +38,7 @@
                     %p
                       %strong Website:
                       %a{href: project.url, target: '_blank', rel: 'nofollow'}= project.url
-            .large-4.columns
+            .large-3.columns
               .row.stack
                 .large-12.columns
                   %ul
