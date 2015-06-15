@@ -133,7 +133,7 @@ projects:
     stack: Ruby on Rails, PostgreSQL, Heroku, Google Maps API
     notes: |
       Evolution and support of a legacy codebase for a brokerage platform to help potential customers find suppliers whilst service providers will be able to promote their products.
-    banner:
+    banner: eopages-banner.png
     url: http://www.eopages.eu/
     references:
   - details: false
