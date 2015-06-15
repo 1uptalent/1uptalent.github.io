@@ -127,14 +127,14 @@ projects:
     references:
   - details: false
     year: 2013
-    name: "<NDA>"
-    customer: "<NDA>"
+    name: EOpages
+    customer: Efimera.com
     brief: Web + API
     stack: Ruby on Rails, PostgreSQL, Heroku, Google Maps API
     notes: |
-      Evolution and support of a legacy codebase for a directory of companies and success stories.
+      Evolution and support of a legacy codebase for a brokerage platform to help potential customers find suppliers whilst service providers will be able to promote their products.
     banner:
-    url:
+    url: http://www.eopages.eu/
     references:
   - details: false
     year: 2013
