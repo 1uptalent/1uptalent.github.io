@@ -17,7 +17,7 @@ projects:
     brief: Consulting / Build System
     stack: Java, Maven, Ivy
     notes: Remote work with Seattle (WA) based company, mainly on Maven integration
-    banner:
+    banner: nilistics-banner.png
     url:
     references: http://www.slideshare.net/amuino/maven-3-so-what
   - details: false
