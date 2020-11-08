@@ -40,7 +40,7 @@ projects:
     notes: |
       Decorapolis is a visual catalog of worldwide geolocated objects and ambiences, related to art, design and decoration. Regular users can spot anything, anywhere. Businesses can build and publish their catalogs.
     banner: decorapolis-banner.jpg
-    url: http://www.decorapolis.com
+    # url: http://www.decorapolis.com
     references:
   - details: false
     year: 2011
@@ -63,7 +63,7 @@ projects:
       During this multi-year project, we handled management activities and coordination with other partners, as well as implementing the backend solution for storing, searching and displaying the video-related information.
       Part of the european FP7 program, 2011-2014
     banner: addpriv-banner.jpg
-    url: http://www.addpriv.eu/
+    # url: http://www.addpriv.eu/
     references:
   - details: false
     year: 2012
@@ -89,7 +89,7 @@ projects:
       A real time, real data, stock trading simulation game.
       Price data for IBEX35 (Spain) and NASDAQ (US) were used.
     banner: invoost-banner.png
-    url: https://invoost.com/home
+    url: https://invoost.com
     references: https://www.youtube.com/watch?v=osyQ51dnTsU
   - details: false
     year: 2012
@@ -146,7 +146,7 @@ projects:
     notes: |
       Two-sided marketplace for connecting reporters with media. Reporters can offer their content on the marketplace for the media to buy. Media can also request specific topics to be covered.
     banner: neupic-pro-banner.jpg
-    url: https://pro.neupic.com
+    # url: https://pro.neupic.com
     references:
   - details: false
     year: 2013
@@ -158,7 +158,7 @@ projects:
       Mentoring selected Talentum interns to help them develop MVCs for two products.
       Currently it is being reshaped into "Hypernova V2" (link)
     banner: hypernova-banner.jpg
-    url: http://hypernova.es/
+    # url: http://hypernova.es/
     references:
   - details: false
     year: 2014
@@ -185,7 +185,7 @@ projects:
       individual authors, financing their work and building independant
       journalism without advertisers or editorial guidelines.
     banner: 'neupic-banner.png'
-    url: https://neupic.com
+    # url: https://neupic.com
     references:
   - details: false
     year: 2014
@@ -211,7 +211,7 @@ projects:
       Subscription-based betting advice for sports. Tipsters can be compared
       and selected based on their past performance.
     banner: cr10-banner.jpg
-    url: https://crackreport10.com
+    # url: https://crackreport10.com
     references:
   - details: false
     year: 2014
@@ -221,7 +221,7 @@ projects:
     stack:
     notes: Acting as interim-CTO and help in the communication/planning between the CEO/Business team and the external agency in charge of development
     banner: 'owlu-banner.png'
-    url: http://owlu.com/
+    # url: http://owlu.com/
     references:
   - details: false
     year: 2014
@@ -234,7 +234,7 @@ projects:
       from other users by trading their time. Directory of services, real time chat,
       transactions and ratings carried on the phone.
     banner: 4time-banner.png
-    url: http://4timeapp.com/
+    # url: http://4timeapp.com/
     references:
   - details: false
     year: 2015
@@ -247,5 +247,5 @@ projects:
       a very simple tool for curating our «network of trust», in order to help
       entrepreneurs when choosing an external team or freelance.
     banner: 'trustable-banner.png'
-    url: https://trustable.io
+    # url: https://trustable.io
     references:
