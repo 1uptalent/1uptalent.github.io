@@ -3,8 +3,19 @@
 
 1uptalent.com website
 
+Requisites
+=============
+```
+$ npm -v
+7.0.8
+$ node -v
+v15.1.0
+```
+
 Setup
 =======
+Run `npm install`.
+
 Run `rake prepare`.
 
 This is also needed when changing bower dependencies (`source/bower.json`)
